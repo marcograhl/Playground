@@ -1,0 +1,76 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+
+
+/* Custom css */
+@import 'tailwindcss/utilities';
+
+
+/*
+ * Viewports
+ */
+
+/* @custom-media --sm (min-width: 576px);
+@custom-media --md (min-width: 768px); */
+
+/**
+ * custom Selectors
+ */
+/* @custom-selector :--heading h1, h2, h3, h4, h5, h6 */
+
+/*
+ * Base css
+ */
+body{
+  -webkit-text-size-adjust: 100%;
+  text-rendering: optimizeLegibility;
+  font-feature-settings: "pnum";
+  font-variant-numeric: proportional-nums;
+}
+
+.btn{
+  @apply .px-3 .py-2 .border mt-2
+}
+
+
+/* .deleteButton{
+  @apply .bg-grey .px-3 .py-2 .rounded .mb-4 ml-2;
+} */
+/* .inputstyle{
+  @apply .bg-grey-lightest
+} */
+
+/* body :--heading {
+  @apply .mb-4 .text-center;
+
+  @media (--md){
+    @apply .text-left;
+  }
+
+} */
+
+
+
+
+/* p {
+  @apply .text-base .text-brown-light .leading-normal .mb-3;
+} */
+
+/* ul{
+  list-style-type: none;
+}
+ */
+
+
+
+/* body select{
+  padding: .5rem .5rem;
+  padding-right: 0;
+  width: 100%;
+  background-color: transparent;
+  z-index: 20!important;
+}
+ */
+
+
+
